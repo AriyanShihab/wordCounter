@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+::placeholder {
+    padding-right: 20px;
+}
+
+body {
+    background-color: #eff4ff;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 20xp;
+    margin-top: 100px;
+}
+
+.Formcontainer {
+    background-color: #fafafa;
+    padding: 50px 30px 80px 30px;
+    border-radius: 8px;
+    box-shadow: 0 30px 50px rgba(30, 21, 49, 0.3);
+}
+
+.mainInput {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0e101a;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+.count {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 20px 40px rgba(30, 21, 49, 0.4);
+}
+
+.count p {
+    color: #a0a0c0;
+}
+
+.count h5 {
+    color: #05053c;
+    font-size: 32px;
+}
+
+
+/* #toUppercase {
+    cursor: pointer;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+} */
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    background: rgb(3, 28, 58);
+    color: #fafafa;
+    font-size: 18px;
+    margin: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.details {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.first,
+.secondStep {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .details {
+        flex-direction: column;
+    }
+    .first,
+    .secondStep {
+        width: 100%;
+    }
+}
+
+.details p {
+    width: 100px;
+    color: #eff4ff;
+    background: rgb(4, 11, 61);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-right: 5px;
+    transition: .9s;
+    transition-delay: 2000;
+}
